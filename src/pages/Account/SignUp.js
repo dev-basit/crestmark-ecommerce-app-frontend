@@ -294,7 +294,7 @@ const SignUp = () => {
                   type="checkbox"
                 />
                 <p className="text-sm text-primeColor">
-                  I agree to the OREBI <span className="text-blue-500">Terms of Service </span>and{" "}
+                  I agree to the Crest Mark <span className="text-blue-500">Terms of Service </span>and{" "}
                   <span className="text-blue-500">Privacy Policy</span>.
                 </p>
               </div>
