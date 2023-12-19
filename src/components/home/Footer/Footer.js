@@ -33,10 +33,10 @@ const Footer = () => {
         <div className="col-span-2">
           <FooterListTitle title=" Crest Mark" />
           <div className="flex flex-col gap-6">
-            <p className="text-base w-full xl:w-[80%]">
+            {/* <p className="text-base w-full xl:w-[80%]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sint ab ullam, numquam
               nesciunt in.
-            </p>
+            </p> */}
             <ul className="flex items-center gap-2">
               <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
                 <li className="w-7 h-7 bg-primeColor text-gray-100 hover:text-white cursor-pointer text-lg rounded-full flex justify-center items-center hover:bg-black duration-300">
@@ -104,7 +104,7 @@ const Footer = () => {
         <div className="col-span-2 flex flex-col items-center w-full px-4">
           <FooterListTitle title="Subscribe to our newsletter." />
           <div className="w-full">
-            <p className="text-center mb-4">A at pellentesque et mattis porta enim elementum.</p>
+            {/* <p className="text-center mb-4">A at pellentesque et mattis porta enim elementum.</p> */}
             {subscription ? (
               <motion.p
                 initial={{ x: 20, opacity: 0 }}
